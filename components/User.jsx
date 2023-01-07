@@ -51,7 +51,7 @@ export default function User() {
         </Menu>
       ) : (
         <button
-          onClick={() => signIn('google', { callbackUrl: '/' })}
+          onClick={() => signIn('google')}
           className='bg-blue-500 text-white rounded-lg p-2 px-3 hover:brightness-105 hover:shadow duration-150'
         >
           Sign in
