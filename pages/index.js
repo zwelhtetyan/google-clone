@@ -2,8 +2,23 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Image from 'next/image';
 import Footer from '../components/Footer';
+import { useRouter } from 'next/router';
+import { useRef } from 'react';
 
 export default function Home() {
+  const router = useRouter();
+  const searchInputRef = useRef(null);
+
+  function searchHandler(e) {
+    e.preventDefault();
+
+    const searchTerm = searchInputRef.current.value.trim();
+
+    if (!searchTerm) return;
+
+    router.push(`/search?q=${searchTerm}`);
+  }
+
   return (
     <>
       <Head>
@@ -37,13 +52,16 @@ export default function Home() {
               <path d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'></path>
             </svg>
             <input
+              ref={searchInputRef}
               type='text'
               className='w-full bg-transparent flex-1 focus:outline-none'
             />
           </div>
 
           <div className='flex flex-wrap justify-center gap-2'>
-            <button className='btn'>Google Search</button>
+            <button onClick={searchHandler} className='btn'>
+              Google Search
+            </button>
             <button className='btn'>I'm Feeling Lucky</button>
           </div>
         </form>
