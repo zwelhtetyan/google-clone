@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: antiquewhite;
-}
-
 @layer components {
   .link {
     @apply hover:underline cursor-pointer;
