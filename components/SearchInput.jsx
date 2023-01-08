@@ -1,6 +1,10 @@
 import { useRouter } from 'next/router';
 
-export default function SearchInput({ className, searchInputRef }) {
+export default function SearchInput({
+  className,
+  searchInputRef,
+  onSearchChange,
+}) {
   const {
     query: { q: searchTerm },
   } = useRouter();
@@ -20,7 +24,8 @@ export default function SearchInput({ className, searchInputRef }) {
 
       <input
         ref={searchInputRef}
-        defaultValue={searchTerm || ''}
+        defaultValue={searchTerm}
+        onChange={onSearchChange || null}
         type='text'
         className='w-full bg-transparent flex-1 focus:outline-none'
       />

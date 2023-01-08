@@ -2,20 +2,24 @@ import Image from 'next/image';
 import SearchInput from './SearchInput';
 import { useRouter } from 'next/router';
 import User from './User';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import SearchIcon from '../assets/icons/Search';
 import ImageIcon from '../assets/icons/Image';
 import HeaderTab from './HeaderTab';
 
 export default function SearchHeader() {
+  const [searchValue, setSearchValue] = useState('');
   const router = useRouter();
   const searchType = router.query.searchType || '';
-  const searchInputRef = useRef(null);
+
+  function searchInputChangeHandler({ target }) {
+    setSearchValue(target.value);
+  }
 
   function searchHandler(e) {
     e.preventDefault();
 
-    const searchTerm = searchInputRef.current.value.trim();
+    const searchTerm = searchValue.trim();
 
     if (!searchTerm) return;
 
@@ -38,14 +42,20 @@ export default function SearchHeader() {
         />
 
         <form onSubmit={searchHandler} className='flex-1 mx-4 hidden sm:block'>
-          <SearchInput className='shadow-lg' searchInputRef={searchInputRef} />
+          <SearchInput
+            className='shadow-lg'
+            onSearchChange={searchInputChangeHandler}
+          />
         </form>
 
         <User />
       </div>
 
       <form onSubmit={searchHandler} className='flex-1 mt-3 block sm:hidden'>
-        <SearchInput className='shadow-lg' searchInputRef={searchInputRef} />
+        <SearchInput
+          className='shadow-lg'
+          onSearchChange={searchInputChangeHandler}
+        />
       </form>
 
       <div className='flex gap-5 ml-[1rem] sm:ml-[145px] text-sm text-gray-500 fill-gray-500 mt-5'>
