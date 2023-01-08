@@ -1,22 +1,26 @@
+import PaginationButtons from './PaginationButtons';
 import ResultItem from './ResultItem';
 
 export default function SearchResult({ searchedResult }) {
   console.log(searchedResult);
 
-  const {
-    searchInformation: { formattedSearchTime, formattedTotalResults },
-    items: searchedItems,
-  } = searchedResult;
+  const { searchInformation, items: searchedItems, queries } = searchedResult;
 
   return (
-    <div className='p-4 md:ml-[145px]'>
+    <div className='p-4 md:ml-[145px] max-w-xl'>
       <p className='text-gray-600 text-sm mb-5'>
-        About {formattedTotalResults} results ({formattedSearchTime} seconds)
+        About {searchInformation?.formattedTotalResults || ''} results (
+        {searchInformation?.formattedSearchTime || ''} seconds)
       </p>
 
-      {searchedItems.map((item) => (
+      {searchedItems?.map((item) => (
         <ResultItem key={item.link} {...item} />
       ))}
+
+      <PaginationButtons
+        previousPage={queries?.previousPage}
+        nextPage={queries?.nextPage}
+      />
     </div>
   );
 }

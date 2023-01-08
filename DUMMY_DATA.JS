@@ -725,6 +725,95 @@ export const DUMMY_DATA_RESULT = {
     },
   ],
 };
+
+// export const DUMMY_DATA_RESULT = {
+//   kind: 'customsearch#search',
+//   url: {
+//     type: 'application/json',
+//     template:
+//       'https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json',
+//   },
+//   queries: {
+//     previousPage: [
+//       {
+//         title: 'Google Custom Search - zwel',
+//         totalResults: '51',
+//         searchTerms: 'zwel',
+//         count: 1,
+//         startIndex: 41,
+//         inputEncoding: 'utf8',
+//         outputEncoding: 'utf8',
+//         safe: 'off',
+//         cx: '95e39fa7573164aed',
+//       },
+//     ],
+//     request: [
+//       {
+//         title: 'Google Custom Search - zwel',
+//         totalResults: '51',
+//         searchTerms: 'zwel',
+//         count: 1,
+//         startIndex: 51,
+//         inputEncoding: 'utf8',
+//         outputEncoding: 'utf8',
+//         safe: 'off',
+//         cx: '95e39fa7573164aed',
+//       },
+//     ],
+//   },
+//   context: {
+//     title: 'ggl-search',
+//   },
+//   searchInformation: {
+//     searchTime: 0.49111,
+//     formattedSearchTime: '0.49',
+//     totalResults: '51',
+//     formattedTotalResults: '51',
+//   },
+//   items: [
+//     {
+//       kind: 'customsearch#result',
+//       title: 'JU VE NI LE NEPHRO PA THY IN A 2-YEAR-OLD BOXER WITH MY ...',
+//       htmlTitle: 'JU VE NI LE NEPHRO PA THY IN A 2-YEAR-OLD BOXER WITH MY ...',
+//       link: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
+//       displayLink: 'vdt.ugent.be',
+//       snippet:
+//         'den voor na me lijk uit tu bu lai re en glo me ru lai re atro fie, tu bu lai re zwel ling, tu bu lai re and glo me ru lai re hy a lie ne af -.',
+//       htmlSnippet:
+//         'den voor na me lijk uit tu bu lai re en glo me ru lai re atro fie, tu bu lai re <b>zwel</b> ling, tu bu lai re and glo me ru lai re hy a lie ne af -.',
+//       cacheId: 'n_6UjW4vYX8J',
+//       formattedUrl: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
+//       htmlFormattedUrl: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
+//       pagemap: {
+//         cse_thumbnail: [
+//           {
+//             src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSrSrmFhzLRq-gPzmd9aWvEX063wMjQdUXARg1wGHjp1CVA20yfLNVEempx',
+//             width: '189',
+//             height: '267',
+//           },
+//         ],
+//         metatags: [
+//           {
+//             moddate: 'D:20050616132019',
+//             creationdate: 'D:20050616132019',
+//             creator: 'Corel Ventura 10.0',
+//             author: 'regina',
+//             producer: 'Corel PDF Engine Version 10.397',
+//             title: 'Roels.vp',
+//           },
+//         ],
+//         cse_image: [
+//           {
+//             src: 'x-raw-image:///6533aa0bf17cedf5ddd61cad8384dd2e87ac1203347e48e5dda33ad661c23e4c',
+//           },
+//         ],
+//       },
+//       mime: 'application/pdf',
+//       fileFormat: 'PDF/Adobe Acrobat',
+//     },
+//   ],
+// };
+
 export const DUMMY_IMAGE_RESULT = {
   kind: 'customsearch#search',
   url: {

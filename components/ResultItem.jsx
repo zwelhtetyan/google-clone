@@ -2,7 +2,7 @@ import parse from 'html-react-parser';
 
 export default function ResultItem({ link, formattedUrl, title, htmlSnippet }) {
   return (
-    <div className='max-w-xl mb-6 overflow-hidden'>
+    <div className='mb-6 overflow-hidden'>
       <div className='group'>
         <a className='text-xs xs:text-sm line-clamp-1' href={link}>
           {formattedUrl}
