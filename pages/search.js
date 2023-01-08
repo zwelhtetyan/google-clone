@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import SearchHeader from '../components/SearchHeader';
 import SearchResult from '../components/SearchResult';
-import { DUMMY_DATA_RESULT } from '../DUMMY_DATA.JS';
+import { DUMMY_DATA_RESULT, DUMMY_IMAGE_RESULT } from '../DUMMY_DATA.JS';
 import { useRouter } from 'next/router';
+import ImageResult from '../components/ImageResult';
 
 export default function Search({ searchedResult }) {
   const router = useRouter();
@@ -15,7 +16,11 @@ export default function Search({ searchedResult }) {
 
       <SearchHeader />
 
-      <SearchResult searchedResult={searchedResult} />
+      {router.query.searchType === 'image' ? (
+        <ImageResult searchedResult={searchedResult} />
+      ) : (
+        <SearchResult searchedResult={searchedResult} />
+      )}
     </>
   );
 }
@@ -37,5 +42,5 @@ export async function getServerSideProps(context) {
 
   // return { props: { searchedResult } };
 
-  return { props: { searchedResult: DUMMY_DATA_RESULT } };
+  return { props: { searchedResult: DUMMY_IMAGE_RESULT } };
 }

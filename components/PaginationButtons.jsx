@@ -11,10 +11,12 @@ function setColor(char) {
     : 'text-red-500';
 }
 
-function Prev({ searchQuery, startIndex }) {
+function Prev({ searchQuery, searchType, prevIndex }) {
   return (
     <Link
-      href={`/search?q=${searchQuery}&start=${startIndex}`}
+      href={`/search?q=${searchQuery}${
+        searchType ? '&searchType=image' : ''
+      }&start=${prevIndex}`}
       className='text-sm text-blue-500 hover:text-blue-400'
     >
       <svg
@@ -37,10 +39,12 @@ function Prev({ searchQuery, startIndex }) {
   );
 }
 
-function Next({ searchQuery, startIndex }) {
+function Next({ searchQuery, searchType, nextIndex }) {
   return (
     <Link
-      href={`/search?q=${searchQuery}&start=${startIndex}`}
+      href={`/search?q=${searchQuery}${
+        searchType ? '&searchType=image' : ''
+      }&start=${nextIndex}`}
       className='text-sm text-blue-500 hover:text-blue-400'
     >
       <svg
@@ -67,11 +71,17 @@ const str = 'Goooogle';
 
 export default function PaginationButtons({ previousPage, nextPage }) {
   const { query } = useRouter();
+  const searchType = query.searchType || '';
+  const startIndex = +query.start || 1;
 
   return (
     <div className='flex justify-center mt-10 mb-4 gap-5'>
       {previousPage && (
-        <Prev searchQuery={query.q} startIndex={previousPage[0].startIndex} />
+        <Prev
+          searchQuery={query.q}
+          searchType={searchType}
+          prevIndex={previousPage[0].startIndex}
+        />
       )}
 
       <p className='text-3xl font-medium'>
@@ -82,8 +92,12 @@ export default function PaginationButtons({ previousPage, nextPage }) {
         ))}
       </p>
 
-      {nextPage && +query.start < 90 && (
-        <Next searchQuery={query.q} startIndex={nextPage[0].startIndex} />
+      {nextPage && startIndex < 90 && (
+        <Next
+          searchQuery={query.q}
+          searchType={searchType}
+          nextIndex={nextPage[0].startIndex}
+        />
       )}
     </div>
   );

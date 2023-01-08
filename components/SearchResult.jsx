@@ -2,8 +2,6 @@ import PaginationButtons from './PaginationButtons';
 import ResultItem from './ResultItem';
 
 export default function SearchResult({ searchedResult }) {
-  console.log(searchedResult);
-
   const { searchInformation, items: searchedItems, queries } = searchedResult;
 
   return (

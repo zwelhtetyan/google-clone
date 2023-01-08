@@ -726,94 +726,6 @@ export const DUMMY_DATA_RESULT = {
   ],
 };
 
-// export const DUMMY_DATA_RESULT = {
-//   kind: 'customsearch#search',
-//   url: {
-//     type: 'application/json',
-//     template:
-//       'https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json',
-//   },
-//   queries: {
-//     previousPage: [
-//       {
-//         title: 'Google Custom Search - zwel',
-//         totalResults: '51',
-//         searchTerms: 'zwel',
-//         count: 1,
-//         startIndex: 41,
-//         inputEncoding: 'utf8',
-//         outputEncoding: 'utf8',
-//         safe: 'off',
-//         cx: '95e39fa7573164aed',
-//       },
-//     ],
-//     request: [
-//       {
-//         title: 'Google Custom Search - zwel',
-//         totalResults: '51',
-//         searchTerms: 'zwel',
-//         count: 1,
-//         startIndex: 51,
-//         inputEncoding: 'utf8',
-//         outputEncoding: 'utf8',
-//         safe: 'off',
-//         cx: '95e39fa7573164aed',
-//       },
-//     ],
-//   },
-//   context: {
-//     title: 'ggl-search',
-//   },
-//   searchInformation: {
-//     searchTime: 0.49111,
-//     formattedSearchTime: '0.49',
-//     totalResults: '51',
-//     formattedTotalResults: '51',
-//   },
-//   items: [
-//     {
-//       kind: 'customsearch#result',
-//       title: 'JU VE NI LE NEPHRO PA THY IN A 2-YEAR-OLD BOXER WITH MY ...',
-//       htmlTitle: 'JU VE NI LE NEPHRO PA THY IN A 2-YEAR-OLD BOXER WITH MY ...',
-//       link: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
-//       displayLink: 'vdt.ugent.be',
-//       snippet:
-//         'den voor na me lijk uit tu bu lai re en glo me ru lai re atro fie, tu bu lai re zwel ling, tu bu lai re and glo me ru lai re hy a lie ne af -.',
-//       htmlSnippet:
-//         'den voor na me lijk uit tu bu lai re en glo me ru lai re atro fie, tu bu lai re <b>zwel</b> ling, tu bu lai re and glo me ru lai re hy a lie ne af -.',
-//       cacheId: 'n_6UjW4vYX8J',
-//       formattedUrl: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
-//       htmlFormattedUrl: 'https://vdt.ugent.be/sites/default/files/art74308.pdf',
-//       pagemap: {
-//         cse_thumbnail: [
-//           {
-//             src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSrSrmFhzLRq-gPzmd9aWvEX063wMjQdUXARg1wGHjp1CVA20yfLNVEempx',
-//             width: '189',
-//             height: '267',
-//           },
-//         ],
-//         metatags: [
-//           {
-//             moddate: 'D:20050616132019',
-//             creationdate: 'D:20050616132019',
-//             creator: 'Corel Ventura 10.0',
-//             author: 'regina',
-//             producer: 'Corel PDF Engine Version 10.397',
-//             title: 'Roels.vp',
-//           },
-//         ],
-//         cse_image: [
-//           {
-//             src: 'x-raw-image:///6533aa0bf17cedf5ddd61cad8384dd2e87ac1203347e48e5dda33ad661c23e4c',
-//           },
-//         ],
-//       },
-//       mime: 'application/pdf',
-//       fileFormat: 'PDF/Adobe Acrobat',
-//     },
-//   ],
-// };
-
 export const DUMMY_IMAGE_RESULT = {
   kind: 'customsearch#search',
   url: {
@@ -824,9 +736,9 @@ export const DUMMY_IMAGE_RESULT = {
   queries: {
     request: [
       {
-        title: 'Google Custom Search - zwelhtetyan',
-        totalResults: '1410',
-        searchTerms: 'zwelhtetyan',
+        title: 'Google Custom Search - billie eilish',
+        totalResults: '2570000000',
+        searchTerms: 'billie eilish',
         count: 10,
         startIndex: 1,
         inputEncoding: 'utf8',
@@ -838,9 +750,9 @@ export const DUMMY_IMAGE_RESULT = {
     ],
     nextPage: [
       {
-        title: 'Google Custom Search - zwelhtetyan',
-        totalResults: '1410',
-        searchTerms: 'zwelhtetyan',
+        title: 'Google Custom Search - billie eilish',
+        totalResults: '2570000000',
+        searchTerms: 'billie eilish',
         count: 10,
         startIndex: 11,
         inputEncoding: 'utf8',
@@ -855,247 +767,251 @@ export const DUMMY_IMAGE_RESULT = {
     title: 'ggl-search',
   },
   searchInformation: {
-    searchTime: 0.417025,
-    formattedSearchTime: '0.42',
-    totalResults: '1410',
-    formattedTotalResults: '1,410',
-  },
-  spelling: {
-    correctedQuery: 'zwel htet yan',
-    htmlCorrectedQuery: '<b><i>zwel htet yan</i></b>',
+    searchTime: 0.352486,
+    formattedSearchTime: '0.35',
+    totalResults: '2570000000',
+    formattedTotalResults: '2,570,000,000',
   },
   items: [
     {
       kind: 'customsearch#result',
-      title: 'zwelhtetyan (Zwel) · GitHub',
-      htmlTitle: '<b>zwelhtetyan</b> (Zwel) · GitHub',
-      link: 'https://avatars.githubusercontent.com/u/89287841?v=4',
-      displayLink: 'github.com',
-      snippet: 'zwelhtetyan (Zwel) · GitHub',
-      htmlSnippet: '<b>zwelhtetyan</b> (Zwel) · GitHub',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://github.com/zwelhtetyan',
-        height: 460,
-        width: 460,
-        byteSize: 67145,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbk0AEhBpBH_0XGkC43nJwg51MqmEHLPiRac-iticA7cuTxj_a3oiYVKY&s',
-        thumbnailHeight: 128,
-        thumbnailWidth: 128,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title:
-        'GitHub - zwelhtetyan/MERN_BLOG: learning MERN with simple CRUD ...',
-      htmlTitle:
-        'GitHub - <b>zwelhtetyan</b>/MERN_BLOG: learning MERN with simple CRUD ...',
-      link: 'https://opengraph.githubassets.com/f2867163f94920e649373a18598ffe4545c178e921543025aa3b12387babbbe9/zwelhtetyan/MERN_BLOG',
-      displayLink: 'github.com',
-      snippet:
-        'GitHub - zwelhtetyan/MERN_BLOG: learning MERN with simple CRUD ...',
-      htmlSnippet:
-        'GitHub - <b>zwelhtetyan</b>/MERN_BLOG: learning MERN with simple CRUD ...',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://github.com/zwelhtetyan/MERN_BLOG',
-        height: 600,
-        width: 1200,
-        byteSize: 142809,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTa51I3gqGATSswLeZuv2C6cmP3pwiLCNz1F9PeDJjQJ-NxjLvxhs_-w&s',
-        thumbnailHeight: 75,
-        thumbnailWidth: 150,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'mongodb-atlas · GitHub Topics · GitHub',
-      htmlTitle: 'mongodb-atlas · GitHub Topics · GitHub',
-      link: 'https://repository-images.githubusercontent.com/278084842/994fa900-c223-11ea-87ed-f39b3123933b',
-      displayLink: 'github.com',
-      snippet: 'mongodb-atlas · GitHub Topics · GitHub',
-      htmlSnippet: 'mongodb-atlas · GitHub Topics · GitHub',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink:
-          'https://github.com/topics/mongodb-atlas?l=ejs&o=desc&s=updated',
-        height: 768,
-        width: 1024,
-        byteSize: 80380,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxSgP5lIzb4fdcLOZF0pzJ_evxv-S13HkPsxE9TdE_ULa_fAWcHfCeA4&s',
-        thumbnailHeight: 113,
-        thumbnailWidth: 150,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title:
-        'GitHub - zwelhtetyan/BMERN: learning MERN with simple CRUD blog app.',
-      htmlTitle:
-        'GitHub - <b>zwelhtetyan</b>/BMERN: learning MERN with simple CRUD blog app.',
-      link: 'https://opengraph.githubassets.com/122457b431a127dc9619aa55f1dbc2eafc088158054f1ec4a2b7f678bdee392c/zwelhtetyan/BMERN',
-      displayLink: 'github.com',
-      snippet:
-        'GitHub - zwelhtetyan/BMERN: learning MERN with simple CRUD blog app.',
-      htmlSnippet:
-        'GitHub - <b>zwelhtetyan</b>/BMERN: learning MERN with simple CRUD blog app.',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://github.com/zwelhtetyan/BMERN',
-        height: 600,
-        width: 1200,
-        byteSize: 137924,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpw1A_ZslccFs64l2lcVQOidV7B1QyZmj9uencu8I44XlHhlyqZuTA1Q&s',
-        thumbnailHeight: 75,
-        thumbnailWidth: 150,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title:
-        'Stream Zwel Htet Yan music | Listen to songs, albums, playlists ...',
-      htmlTitle:
-        'Stream <b>Zwel Htet Yan</b> music | Listen to songs, albums, playlists ...',
-      link: 'https://i1.sndcdn.com/avatars-000641164554-242x4c-t240x240.jpg',
-      displayLink: 'soundcloud.com',
-      snippet:
-        'Stream Zwel Htet Yan music | Listen to songs, albums, playlists ...',
-      htmlSnippet:
-        'Stream <b>Zwel Htet Yan</b> music | Listen to songs, albums, playlists ...',
+      title: 'Billie Eilish - Wikipedia',
+      htmlTitle: '<b>Billie Eilish</b> - Wikipedia',
+      link: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg',
+      displayLink: 'en.wikipedia.org',
+      snippet: 'Billie Eilish - Wikipedia',
+      htmlSnippet: '<b>Billie Eilish</b> - Wikipedia',
       mime: 'image/jpeg',
       fileFormat: 'image/jpeg',
       image: {
-        contextLink: 'https://soundcloud.com/nandar-oo-wai-41022326',
-        height: 240,
-        width: 240,
-        byteSize: 12156,
+        contextLink: 'https://en.wikipedia.org/wiki/Billie_Eilish',
+        height: 2232,
+        width: 1552,
+        byteSize: 2107816,
         thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZS38BpGAiiD3XpZDu-9kWYk1bi-7lV5imxyjaO5qoyUwQ2yDveRmlA&s',
-        thumbnailHeight: 110,
-        thumbnailWidth: 110,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Issues · zwelhtetyan/Shopify · GitHub',
-      htmlTitle: 'Issues · <b>zwelhtetyan</b>/Shopify · GitHub',
-      link: 'https://opengraph.githubassets.com/30f94d5b23a926b2cca14033cb75f3571c0771f80c19d8d2b8ade4859fd32fec/zwelhtetyan/Shopify',
-      displayLink: 'github.com',
-      snippet: 'Issues · zwelhtetyan/Shopify · GitHub',
-      htmlSnippet: 'Issues · <b>zwelhtetyan</b>/Shopify · GitHub',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://github.com/zwelhtetyan/Shopify/issues',
-        height: 600,
-        width: 1200,
-        byteSize: 87698,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsaaiDiWeOBDc3QAd_XpV6_fWrY-TAcLNINhxi3PjHIylgaBqxs9ZzSoc&s',
-        thumbnailHeight: 75,
-        thumbnailWidth: 150,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Zwel Htet Yan - Frontend Developer - Freelance | LinkedIn',
-      htmlTitle:
-        '<b>Zwel Htet Yan</b> - Frontend Developer - Freelance | LinkedIn',
-      link: 'https://media.licdn.com/dms/image/C4E22AQHqaYNeHVijrw/feedshare-shrink_800/0/1667747088404?e=2147483647&v=beta&t=vYNbndFmq1uhqAKlabM3nGpbdR5MYaOo-HeSv_q-wrc',
-      displayLink: 'mm.linkedin.com',
-      snippet: 'Zwel Htet Yan - Frontend Developer - Freelance | LinkedIn',
-      htmlSnippet:
-        '<b>Zwel Htet Yan</b> - Frontend Developer - Freelance | LinkedIn',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://mm.linkedin.com/in/zwelhtetyan',
-        height: 785,
-        width: 800,
-        byteSize: 29344,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWfOva7W-CSyM6P-7CuQgI65NjBvumvIb1GLdVjiUowP052nZ2KJwcLpT8&s',
-        thumbnailHeight: 140,
-        thumbnailWidth: 143,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Error: Duplicate parameter name not allowed in this context ...',
-      htmlTitle:
-        'Error: Duplicate parameter name not allowed in this context ...',
-      link: 'https://opengraph.githubassets.com/2bfdf3ed68e93cbf93bc58f9d97f2571a901b2f6eab812345550dcc29550c27b/chakra-ui/chakra-ui/issues/7163',
-      displayLink: 'github.com',
-      snippet:
-        'Error: Duplicate parameter name not allowed in this context ...',
-      htmlSnippet:
-        'Error: Duplicate parameter name not allowed in this context ...',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink: 'https://github.com/chakra-ui/chakra-ui/issues/7163',
-        height: 600,
-        width: 1200,
-        byteSize: 110204,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpX55O9j18DQ4Z6US-uKaxwkhOxfTvohaPiezeJKXZ82IA9V5R-g7FJ8&s',
-        thumbnailHeight: 75,
-        thumbnailWidth: 150,
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Zwel htet yan - Reviews | Facebook',
-      htmlTitle: '<b>Zwel htet yan</b> - Reviews | Facebook',
-      link: 'https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=112889537982934',
-      displayLink: 'm.facebook.com',
-      snippet: 'Zwel htet yan - Reviews | Facebook',
-      htmlSnippet: '<b>Zwel htet yan</b> - Reviews | Facebook',
-      mime: 'image/',
-      fileFormat: 'image/',
-      image: {
-        contextLink:
-          'https://m.facebook.com/Zwel-htet-yan-112889537982934/reviews/?ref=page_internal',
-        height: 720,
-        width: 720,
-        byteSize: 55811,
-        thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUdCe0-M5cBzVLC-MHMGmuAPmt9qXrBgJ5yIYrRVJyj8CNsudUq7ulfqJ&s',
-        thumbnailHeight: 140,
-        thumbnailWidth: 140,
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nY8CJApaNByX8lbV8mavGSzpCjravsYhXRWWbHVGIXb0Xys-8yAGAXA&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 104,
       },
     },
     {
       kind: 'customsearch#result',
       title:
-        "Named export 'chakra' not found. The requested module '@chakra-ui ...",
+        'Billie Eilish Urges Fans to Vote in 2022 Midterm Elections | Teen ...',
       htmlTitle:
-        'Named export &#39;chakra&#39; not found. The requested module &#39;@chakra-ui ...',
-      link: 'https://opengraph.githubassets.com/ecc1da198db2eaaf558d382e4a79bafa727bb35766f2530a286aa823c63233c9/chakra-ui/chakra-ui/issues/7170',
-      displayLink: 'github.com',
+        '<b>Billie Eilish</b> Urges Fans to Vote in 2022 Midterm Elections | Teen ...',
+      link: 'https://assets.teenvogue.com/photos/6367b84258aa9e2042172c0a/master/pass/1439477277',
+      displayLink: 'www.teenvogue.com',
       snippet:
-        "Named export 'chakra' not found. The requested module '@chakra-ui ...",
+        'Billie Eilish Urges Fans to Vote in 2022 Midterm Elections | Teen ...',
       htmlSnippet:
-        'Named export &#39;chakra&#39; not found. The requested module &#39;@chakra-ui ...',
+        '<b>Billie Eilish</b> Urges Fans to Vote in 2022 Midterm Elections | Teen ...',
       mime: 'image/',
       fileFormat: 'image/',
       image: {
-        contextLink: 'https://github.com/chakra-ui/chakra-ui/issues/7170',
-        height: 600,
-        width: 1200,
-        byteSize: 111652,
+        contextLink:
+          'https://www.teenvogue.com/story/billie-eilish-voting-midterms-2022',
+        height: 3000,
+        width: 4500,
+        byteSize: 2745162,
         thumbnailLink:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEQ00HLrXpx04ykSUegTSUNeuEifSIu01Z8qmiQnx4XHqaaAzAROBbQ&s',
-        thumbnailHeight: 75,
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYaGIbPwh3iwRrDZq2E00gLnI7TtQRKN6J66g-9li6MovoIJeMXQL7H1I&s',
+        thumbnailHeight: 100,
         thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'Billie Eilish Is The Weird Achiever Of The Year : NPR',
+      htmlTitle: '<b>Billie Eilish</b> Is The Weird Achiever Of The Year : NPR',
+      link: 'https://media.npr.org/assets/img/2019/12/09/gettyimages-1175567702-c01e78852dfdfe16fa80bde33bb68237f4887ac0.jpg',
+      displayLink: 'www.npr.org',
+      snippet: 'Billie Eilish Is The Weird Achiever Of The Year : NPR',
+      htmlSnippet:
+        '<b>Billie Eilish</b> Is The Weird Achiever Of The Year : NPR',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.npr.org/2019/12/10/786451710/billie-eilish-is-the-class-of-2019s-weird-achiever',
+        height: 2786,
+        width: 3715,
+        byteSize: 2829011,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhAe43tbW4EFTi9JCYE439qerb8zbq6AfGyx-IGEe0yFk46DPhWd-dJqc&s',
+        thumbnailHeight: 112,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'Billie Eilish - Wikipedia',
+      htmlTitle: '<b>Billie Eilish</b> - Wikipedia',
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg/1200px-Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg',
+      displayLink: 'en.wikipedia.org',
+      snippet: 'Billie Eilish - Wikipedia',
+      htmlSnippet: '<b>Billie Eilish</b> - Wikipedia',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink: 'https://en.wikipedia.org/wiki/Billie_Eilish',
+        height: 1726,
+        width: 1200,
+        byteSize: 416944,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v9XUkPoYdGa2c2knjmspiIGV2sE6wB5c3o8TQcAvnK6a-Qs-6JezdQ&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 104,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        "Billie Eilish Is Returning to Her Roots with Black Hair: 'She's Back'",
+      htmlTitle:
+        '<b>Billie Eilish</b> Is Returning to Her Roots with Black Hair: &#39;She&#39;s Back&#39;',
+      link: 'https://people.com/thmb/metTsDBh8v0GckqgiMWfgEuTsvs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(734x309:736x311)/billie-eilish-72c4c66d68c74c5eab0864c0d057dda9.jpg',
+      displayLink: 'people.com',
+      snippet:
+        "Billie Eilish Is Returning to Her Roots with Black Hair: 'She's Back'",
+      htmlSnippet:
+        '<b>Billie Eilish</b> Is Returning to Her Roots with Black Hair: &#39;She&#39;s Back&#39;',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://people.com/style/billie-eilish-brings-back-signature-black-hair/',
+        height: 1000,
+        width: 1500,
+        byteSize: 122865,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwb3ewiyKCIa459fBTbgJ6-zsD7Ij9kmSJHNBrsd4e8RyPguw99uTkcaE&s',
+        thumbnailHeight: 100,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlTitle:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      link: 'https://media.cnn.com/api/v1/images/stellar/prod/220211042948-billie-eilish-kanye-west-split.jpg?q=h_900,w_1600,x_0,y_0',
+      displayLink: 'www.cnn.com',
+      snippet:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlSnippet:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.cnn.com/2022/02/11/entertainment/kanye-west-billie-eilish-travis-scott-intl-scli/index.html',
+        height: 900,
+        width: 1600,
+        byteSize: 248830,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ETKc89TXCPPpyPhGTDMXszWU8kUb5aaQUnsaV0ajKiifjY5llj32uyI&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: 'billie eilish (@billieeilish) / Twitter',
+      htmlTitle: '<b>billie eilish</b> (@<b>billieeilish</b>) / Twitter',
+      link: 'https://pbs.twimg.com/media/Fi5bTSZXwAAb6xt?format=jpg&name=4096x4096',
+      displayLink: 'mobile.twitter.com',
+      snippet: 'billie eilish (@billieeilish) / Twitter',
+      htmlSnippet: '<b>billie eilish</b> (@<b>billieeilish</b>) / Twitter',
+      mime: 'image/',
+      fileFormat: 'image/',
+      image: {
+        contextLink: 'https://mobile.twitter.com/billieeilish',
+        height: 2813,
+        width: 2250,
+        byteSize: 4753507,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvbIDEjkFCYVXZrdRa11wMEv-VuG5Dg6NYR_YRaHcVF-qPQKGtv0THep4&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 120,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlTitle:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      link: 'https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220211042948-billie-eilish-kanye-west-split.jpg',
+      displayLink: 'www.cnn.com',
+      snippet:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlSnippet:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.cnn.com/2022/02/11/entertainment/kanye-west-billie-eilish-travis-scott-intl-scli/index.html',
+        height: 675,
+        width: 1200,
+        byteSize: 149117,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqhhucmw1fDqjXxREKZhZAkggo66Pe--yYyr81P6tBaa_i3yeMyAPg5gE&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlTitle:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      link: 'https://cdn.cnn.com/cnnnext/dam/assets/220211042948-billie-eilish-kanye-west-split-super-tease.jpg',
+      displayLink: 'www.cnn.com',
+      snippet:
+        'Kanye West wants Billie Eilish to apologize for dissing Travis ...',
+      htmlSnippet:
+        'Kanye West wants <b>Billie Eilish</b> to apologize for dissing Travis ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.cnn.com/2022/02/11/entertainment/kanye-west-billie-eilish-travis-scott-intl-scli/index.html',
+        height: 619,
+        width: 1100,
+        byteSize: 859046,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFa8yg4e_IDCF8T1KIWVoYbuAwVv_ZVWxBHUOYy0bLCJC_bEv68bVJLA&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title: "How Billie Eilish's Nails Defined Her More-Is-More Aesthetic ...",
+      htmlTitle:
+        'How <b>Billie Eilish&#39;s</b> Nails Defined Her More-Is-More Aesthetic ...',
+      link: 'https://www.tammytaylornails.co.za/wp-content/uploads/2021/01/billie-eilish-vanity-fair.jpg',
+      displayLink: 'www.vanityfair.com',
+      snippet:
+        "How Billie Eilish's Nails Defined Her More-Is-More Aesthetic ...",
+      htmlSnippet:
+        'How <b>Billie Eilish&#39;s</b> Nails Defined Her More-Is-More Aesthetic ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.vanityfair.com/style/2021/01/billie-eilish-best-nail-looks-tammy-taylor',
+        height: 2000,
+        width: 1594,
+        byteSize: 606156,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRRwgHg1PeZRtkuTrwO7CqV1zBMQhVsK9GqQGffYZWtiwKzpeAmhabIY&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 120,
       },
     },
   ],
