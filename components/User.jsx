@@ -52,7 +52,7 @@ export default function User() {
       ) : (
         <button
           onClick={() => signIn('google')}
-          className='bg-blue-500 text-white rounded-lg p-2 px-3 hover:brightness-105 hover:shadow duration-150'
+          className='bg-blue-600 text-white rounded-lg p-2 px-3 hover:brightness-105 hover:shadow duration-150'
         >
           Sign in
         </button>

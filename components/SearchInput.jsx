@@ -27,6 +27,7 @@ export default function SearchInput({
         defaultValue={searchTerm}
         onChange={onSearchChange || null}
         type='text'
+        aria-labelledby='search-input'
         className='w-full bg-transparent flex-1 focus:outline-none'
       />
     </div>
