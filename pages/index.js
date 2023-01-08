@@ -20,6 +20,15 @@ export default function Home() {
     router.push(`/search?q=${searchTerm}`);
   }
 
+  async function randomSearch() {
+    const response = await fetch('https://random-word-api.herokuapp.com/word');
+    const randomWord = await response.json();
+
+    if (!randomWord) return;
+
+    router.push(`/search?q=${randomWord}`);
+  }
+
   return (
     <>
       <Head>
@@ -49,7 +58,10 @@ export default function Home() {
             <button onClick={searchHandler} className='btn'>
               Google Search
             </button>
-            <button className='btn'>I'm Feeling Lucky</button>
+
+            <button onClick={randomSearch} type='button' className='btn'>
+              I&apos;m Feeling Lucky
+            </button>
           </div>
         </form>
 
