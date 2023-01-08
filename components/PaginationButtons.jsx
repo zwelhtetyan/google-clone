@@ -82,7 +82,7 @@ export default function PaginationButtons({ previousPage, nextPage }) {
         ))}
       </p>
 
-      {nextPage && +query.start !== 91 && (
+      {nextPage && +query.start < 90 && (
         <Next searchQuery={query.q} startIndex={nextPage[0].startIndex} />
       )}
     </div>
