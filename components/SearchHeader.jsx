@@ -29,7 +29,7 @@ export default function SearchHeader() {
   }
 
   return (
-    <header className='p-4 border-b border-b-gray-200'>
+    <header className='p-4 border-b border-b-gray-200 shadow-sm bg-white bg-opacity-20 backdrop-blur-md'>
       <div className='flex items-center justify-between sm:justify-unset'>
         <Image
           src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png'
@@ -58,7 +58,7 @@ export default function SearchHeader() {
         />
       </form>
 
-      <div className='flex gap-5 ml-[1rem] sm:ml-[145px] text-sm text-gray-500 fill-gray-500 mt-5'>
+      <div className='flex gap-5  md:ml-[145px] text-sm text-gray-500 fill-gray-500 mt-5'>
         <HeaderTab
           Icon={SearchIcon}
           tabName='All'

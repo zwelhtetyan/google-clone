@@ -2,21 +2,22 @@ import Head from 'next/head';
 import SearchHeader from '../components/SearchHeader';
 import SearchResult from '../components/SearchResult';
 import { DUMMY_DATA_RESULT } from '../DUMMY_DATA.JS';
+import { useRouter } from 'next/router';
 
-export default function search({ searchedResult }) {
-  console.log(searchedResult);
+export default function Search({ searchedResult }) {
+  const router = useRouter();
 
   return (
     <>
       <Head>
-        <title>Search</title>
+        <title>{router.query.q} - Search</title>
       </Head>
 
       {/* search header */}
       <SearchHeader />
 
       {/* search result */}
-      <SearchResult />
+      <SearchResult searchedResult={searchedResult} />
     </>
   );
 }
