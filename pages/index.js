@@ -33,8 +33,15 @@ export default function Home() {
     <>
       <Head>
         <title>Google Clone</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta name='description' content='This is a clone of google' />
+        <meta property='og:title' content='Google Clone' />
+        <meta property='og:description' content='This is a clone of google' />
+        <meta property='og:url' content='https://ggl-nextjs.vercel.app' />
+        <meta property='og:site_name' content='Google Clone' />
+        <meta property='og:type' content='website' />
+        <meta name='author' content='Zwel' />
       </Head>
 
       <main className='min-h-screen flex flex-col'>
