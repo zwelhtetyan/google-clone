@@ -29,6 +29,11 @@ export async function getServerSideProps(context) {
   const searchType = context.query.searchType || '';
   const startIndex = context.query.start || '';
 
+  context.res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  );
+
   const response = await fetch(
     `https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${
       process.env.CX_KEY
