@@ -23,22 +23,6 @@
 </details>
 
 
-### :key: Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`GOOGLE_CLIENT_ID`
-
-`GOOGLE_CLIENT_SECRET`
-
-`API_KEY`
-
-`CX_KEY`
-
-`SECRET`
-
-
-
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
 
@@ -69,8 +53,22 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn install
+  yarn
 ```
+
+### :key: Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`GOOGLE_CLIENT_ID`
+
+`GOOGLE_CLIENT_SECRET`
+
+`API_KEY`
+
+`CX_KEY`
+
+`SECRET`
 
 Start the server
 
