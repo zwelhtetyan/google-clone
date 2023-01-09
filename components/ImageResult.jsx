@@ -35,10 +35,12 @@ export default function ImageResult({ searchedResult }) {
         ))}
       </div>
 
-      <PaginationButtons
-        previousPage={queries?.previousPage}
-        nextPage={queries?.nextPage}
-      />
+      {searchedItems?.length > 0 && (
+        <PaginationButtons
+          previousPage={queries?.previousPage}
+          nextPage={queries?.nextPage}
+        />
+      )}
     </div>
   );
 }
