@@ -10,3 +10,8 @@
     @apply bg-[#f8f9fa] p-3 rounded-md text-sm outline-none text-gray-800 hover:shadow-md hover:ring-1 hover:ring-gray-200 active:ring-gray-300;
   }
 }
+
+#nprogress .bar {
+  height: 3px !important;
+  @apply bg-blue-500;
+}
