@@ -1,4 +1,4 @@
-<h2 align='center'>:star2: Google clone</h2>
+<h2 align='center'>:star2: Google clone :star2:</h2>
 
 <br />
 
