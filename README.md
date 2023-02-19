@@ -85,18 +85,8 @@ Start the server
 
 Contributions are always welcome!
 
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License.
-
-
 <!-- Contact -->
 ## :handshake: Contact
 
-[Linkedin - Zwel Htet Yan](https://www.linkedin.com/in/zwelhtetyan/)
-
-
-<h4 align='center'>Made with ❤️‍🔥 by ZweL</h4>
+- [@Zwel](https://www.linkedin.com/in/zwelhtetyan/)
 
